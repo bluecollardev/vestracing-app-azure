@@ -18,6 +18,8 @@
     <allow-intent href="geo:*" />
     <platform name="android">
         <allow-intent href="market:*" />
+        <preference name="APP_SECRET" value="0c1a5f95-0abd-4e71-af66-535d00535986" />
+        <preference name="APPCENTER_APP_SECRET" value="0c1a5f95-0abd-4e71-af66-535d00535986" />
     </platform>
     <platform name="ios">
         <allow-intent href="itms:*" />

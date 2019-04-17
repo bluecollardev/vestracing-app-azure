@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.firebrand.vestracing" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.bluecollardev.vestracing" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name></name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
     </description>
-    <author email="lucaslopatka@gmail.com" href="https://firebrandsolutions.com">
+    <author email="lucas@bluecollardev.com" href="https://bluecollardev.com">
         Apache Cordova Team
     </author>
     <content src="index.html" />
@@ -20,6 +20,8 @@
         <allow-intent href="market:*" />
         <preference name="APP_SECRET" value="0c1a5f95-0abd-4e71-af66-535d00535986" />
         <preference name="APPCENTER_APP_SECRET" value="0c1a5f95-0abd-4e71-af66-535d00535986" />
+        <preference name="CodePushDeploymentKey" value="4B88ZS6uOgTYX9vp15znrr6gSdzCH1htBe_KV" />
+
     </platform>
     <platform name="ios">
         <allow-intent href="itms:*" />

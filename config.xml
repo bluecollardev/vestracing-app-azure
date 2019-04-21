@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.firebrand.vestracing" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.bluecollardev.vestracing" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name></name>
     <description>
-        A sample Apache Cordova application that responds to the deviceready event.
+        Racing app for getting programs and other track info.
     </description>
-    <author email="lucaslopatka@gmail.com" href="https://firebrandsolutions.com">
-        Apache Cordova Team
+    <author email="lucas@bluecollardev.com" href="https://bluecollardev.com">
+        Blue Collar App Development Team
     </author>
     <content src="index.html" />
     <plugin name="cordova-plugin-whitelist" spec="1" />
@@ -18,6 +18,10 @@
     <allow-intent href="geo:*" />
     <platform name="android">
         <allow-intent href="market:*" />
+        <preference name="APP_SECRET" value="0c1a5f95-0abd-4e71-af66-535d00535986" />
+        <preference name="APPCENTER_APP_SECRET" value="0c1a5f95-0abd-4e71-af66-535d00535986" />
+        <preference name="CodePushDeploymentKey" value="4B88ZS6uOgTYX9vp15znrr6gSdzCH1htBe_KV" />
+
     </platform>
     <platform name="ios">
         <allow-intent href="itms:*" />

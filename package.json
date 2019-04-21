@@ -22,7 +22,6 @@
     "cordova-plugin-code-push": "^1.11.17",
     "cordova-plugin-device": "^2.0.2",
     "cordova-plugin-dialogs": "^2.0.1",
-    "cordova-plugin-file": "^4.3.3",
     "cordova-plugin-fileopener": "^1.0.5",
     "cordova-plugin-inappbrowser": "^3.0.0",
     "nopt": "^4.0.1",
@@ -37,7 +36,6 @@
     "plugins": {
       "cordova-plugin-whitelist": {},
       "cordova-plugin-device": {},
-      "cordova-plugin-file": {},
       "cordova-plugin-fileopener": {},
       "cordova-plugin-inappbrowser": {},
       "cordova-plugin-code-push": {}

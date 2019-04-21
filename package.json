@@ -23,10 +23,8 @@
     "cordova-plugin-device": "^2.0.2",
     "cordova-plugin-dialogs": "^2.0.1",
     "cordova-plugin-file": "^4.3.3",
-    "cordova-plugin-file-transfer": "^1.6.3",
     "cordova-plugin-fileopener": "^1.0.5",
     "cordova-plugin-inappbrowser": "^3.0.0",
-    "cordova-plugin-zip": "^3.1.0",
     "nopt": "^4.0.1",
     "q": "^1.5.1",
     "shelljs": "^0.8.3",
@@ -42,9 +40,7 @@
       "cordova-plugin-file": {},
       "cordova-plugin-fileopener": {},
       "cordova-plugin-inappbrowser": {},
-      "cordova-plugin-code-push": {},
-      "cordova-plugin-file-transfer": {},
-      "cordova-plugin-zip": {}
+      "cordova-plugin-code-push": {}
     },
     "platforms": []
   }

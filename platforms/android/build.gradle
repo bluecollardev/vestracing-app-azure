@@ -47,11 +47,6 @@ allprojects {
     }
 }
 
-dexOptions {
-   javaMaxHeapSize "4g"
-}
-
-
 task clean(type: Delete) {
     delete rootProject.buildDir
 }

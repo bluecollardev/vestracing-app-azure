@@ -9,6 +9,30 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
       ]
     },
     {
+      "id": "cordova-plugin-appcenter-shared.AppCenter",
+      "file": "plugins/cordova-plugin-appcenter-shared/www/AppCenter.js",
+      "pluginId": "cordova-plugin-appcenter-shared",
+      "clobbers": [
+        "AppCenter"
+      ]
+    },
+    {
+      "id": "cordova-plugin-appcenter-analytics.Analytics",
+      "file": "plugins/cordova-plugin-appcenter-analytics/www/Analytics.js",
+      "pluginId": "cordova-plugin-appcenter-analytics",
+      "clobbers": [
+        "AppCenter.Analytics"
+      ]
+    },
+    {
+      "id": "cordova-plugin-appcenter-crashes.Crashes",
+      "file": "plugins/cordova-plugin-appcenter-crashes/www/Crashes.js",
+      "pluginId": "cordova-plugin-appcenter-crashes",
+      "clobbers": [
+        "AppCenter.Crashes"
+      ]
+    },
+    {
       "id": "cordova-plugin-dialogs.notification",
       "file": "plugins/cordova-plugin-dialogs/www/notification.js",
       "pluginId": "cordova-plugin-dialogs",
@@ -298,6 +322,14 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
       ]
     },
     {
+      "id": "cordova-plugin-fileopener.FileOpener",
+      "file": "plugins/cordova-plugin-fileopener/www/FileOpener.js",
+      "pluginId": "cordova-plugin-fileopener",
+      "clobbers": [
+        "cordova.plugins.FileOpener"
+      ]
+    },
+    {
       "id": "cordova-plugin-inappbrowser.inappbrowser",
       "file": "plugins/cordova-plugin-inappbrowser/www/inappbrowser.js",
       "pluginId": "cordova-plugin-inappbrowser",
@@ -317,11 +349,15 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
   ];
   module.exports.metadata = {
     "code-push": "2.0.6",
+    "cordova-plugin-appcenter-shared": "0.3.3",
+    "cordova-plugin-appcenter-analytics": "0.3.3",
+    "cordova-plugin-appcenter-crashes": "0.3.3",
     "cordova-plugin-dialogs": "2.0.1",
     "cordova-plugin-device": "2.0.2",
     "cordova-plugin-code-push": "1.11.17",
     "cordova-plugin-file": "4.3.3",
     "cordova-plugin-file-transfer": "1.6.3",
+    "cordova-plugin-fileopener": "1.0.5",
     "cordova-plugin-inappbrowser": "3.0.0",
     "cordova-plugin-whitelist": "1.3.3",
     "cordova-plugin-zip": "3.1.0"

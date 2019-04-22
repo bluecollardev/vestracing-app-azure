@@ -267,6 +267,9 @@ dependencies {
     implementation fileTree(dir: 'libs', include: '*.jar')
     // SUB-PROJECT DEPENDENCIES START
     implementation(project(path: ":CordovaLib"))
+    implementation "com.microsoft.appcenter:appcenter:1.11.4"
+    implementation "com.microsoft.appcenter:appcenter-analytics:1.11.4"
+    implementation "com.microsoft.appcenter:appcenter-crashes:1.11.4"
     // SUB-PROJECT DEPENDENCIES END
 }
 

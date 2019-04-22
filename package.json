@@ -16,14 +16,35 @@
   "dependencies": {
     "code-push": "^2.0.6",
     "cordova-android": "^8.0.0",
+    "cordova-plugin-appcenter-shared": "^0.3.3",
     "nopt": "^4.0.1",
     "q": "^1.5.1",
     "shelljs": "^0.8.3",
     "which": "^1.3.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "cordova-plugin-appcenter-analytics": "^0.3.3",
+    "cordova-plugin-appcenter-crashes": "^0.3.3",
+    "cordova-plugin-code-push": "~1.11.17",
+    "cordova-plugin-device": "~2.0.2",
+    "cordova-plugin-file-transfer": "~1.6.3",
+    "cordova-plugin-fileopener": "^1.0.5",
+    "cordova-plugin-inappbrowser": "~3.0.0",
+    "cordova-plugin-whitelist": "^1.3.3",
+    "cordova-plugin-zip": "~3.1.0"
+  },
   "cordova": {
-    "plugins": {},
+    "plugins": {
+      "cordova-plugin-whitelist": {},
+      "cordova-plugin-device": {},
+      "cordova-plugin-fileopener": {},
+      "cordova-plugin-inappbrowser": {},
+      "cordova-plugin-code-push": {},
+      "cordova-plugin-file-transfer": {},
+      "cordova-plugin-appcenter-analytics": {},
+      "cordova-plugin-appcenter-crashes": {},
+      "cordova-plugin-zip": {}
+    },
     "platforms": [
       "android"
     ]

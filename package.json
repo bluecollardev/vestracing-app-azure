@@ -15,7 +15,6 @@
   "license": "Apache-2.0",
   "dependencies": {
     "code-push": "^2.0.6",
-    "cordova-android": "^8.0.0",
     "cordova-ios": "^5.0.0",
     "nopt": "^4.0.1",
     "q": "^1.5.1",
@@ -27,8 +26,6 @@
   },
   "cordova": {
     "plugins": {},
-    "platforms": [
-      "android"
-    ]
+    "platforms": []
   }
 }

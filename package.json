@@ -15,6 +15,7 @@
   "license": "Apache-2.0",
   "dependencies": {
     "code-push": "^2.0.6",
+    "cordova-android": "^8.0.0",
     "cordova-plugin-appcenter-shared": "^0.3.3",
     "nopt": "^4.0.1",
     "q": "^1.5.1",
@@ -44,6 +45,8 @@
       "cordova-plugin-appcenter-crashes": {},
       "cordova-plugin-zip": {}
     },
-    "platforms": []
+    "platforms": [
+      "android"
+    ]
   }
 }

@@ -16,7 +16,6 @@
   "dependencies": {
     "code-push": "^2.0.6",
     "cordova-android": "^8.0.0",
-    "cordova-ios": "^5.0.0",
     "nopt": "^4.0.1",
     "q": "^1.5.1",
     "shelljs": "^0.8.3",

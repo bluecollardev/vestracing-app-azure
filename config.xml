@@ -19,7 +19,7 @@
         <allow-intent href="market:*" />
         <preference name="APP_SECRET" value="0c1a5f95-0abd-4e71-af66-535d00535986" />
         <preference name="APPCENTER_APP_SECRET" value="0c1a5f95-0abd-4e71-af66-535d00535986" />
-        <preference name="CodePushDeploymentKey" value="4B88ZS6uOgTYX9vp15znrr6gSdzCH1htBe_KV" />
+        <preference name="CodePushDeploymentKey" value="zpvJUJeWxQbQY7ZZG8TS12z7F78iryFvetqq4" />
     </platform>
     <platform name="ios">
         <allow-intent href="itms:*" />
